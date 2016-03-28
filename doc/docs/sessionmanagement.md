@@ -6,7 +6,7 @@ Use Sessions to track the state of a user's interactions with your application a
 
 Session Management involves creating, reading, updating, and deleting of Sessions and Session attributes, and validating Sessions.
 
-Yosai's `SessionManager` uses a `CachingSessionStore` to cache sessions. If you are not caching sessions, you you are either using in-memory session storage  (the `MemorySessionStore`) or using your own custom SessionStore, which is beyond the scope of consideration in this documentation.
+Yosai's `SessionManager` uses a `CachingSessionStore` to cache sessions. If you are not caching sessions, you are either using in-memory session storage  (the `MemorySessionStore`) or using your own custom SessionStore, which is beyond the scope of consideration in this documentation.
 
 
 ## Authentication, Authorization, and Session Management are Related
